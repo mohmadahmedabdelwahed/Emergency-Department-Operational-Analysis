@@ -26,15 +26,15 @@ Built in Power Pivot after shaping all source tables in Power Query.
 
 ## Analysis & Key Findings:
 1. Throughput & Capacity:
-   Monday is the highest-volume day (3,813 visits) followed by Tuesday (3,543), with only minor variation across the remaining weekdays. June, March, May, and     April are the highest-volume months (~2,400-2,470 visits each), with a clear drop-off across the winter months (November, February at ~1,600-1,630).
-   Conclusion: Demand is concentrated in the midday-to-evening window (11am-7pm), which together account for roughly half of all visits, and in the Monday-        Tuesday early week. Staffing schedules should be weighted toward these windows rather than spread evenly across all shifts; overnight (11pm-7am) volume is      roughly one-third of peak and may be a candidate for reduced staffing levels.
+Monday is the highest-volume day (3,813 visits) followed by Tuesday (3,543), with only minor variation across the remaining weekdays. June, March, May, and     April are the highest-volume months (~2,400-2,470 visits each), with a clear drop-off across the winter months (November, February at ~1,600-1,630).
+> **Conclusion:** Demand is concentrated in the midday-to-evening window (11am-7pm), which together account for roughly half of all visits, and in the Monday-        Tuesday early week. Staffing schedules should be weighted toward these windows rather than spread evenly across all shifts; overnight (11pm-7am) volume is      roughly one-third of peak and may be a candidate for reduced staffing levels.
 
 2.	Admit Rate — Overall and by Segment:
-      Overall Admit Rate: 32.66%
-     	Overall Discharge Rate: 67.34%
-     	Admit rate held in a narrow band across the year (~29%-35%), dipping to its lowest in August (29.69%) and returning to ~32% by year-end — no strong             seasonal admission trend. Admit rate is nearly identical between genders.
-      A clear, monotonic relationship exists between age and admit rate.
-     	Conclusion: Admission risk is overwhelmingly driven by age rather than time of year or gender — elderly patients (81+) are admitted at roughly 10x the          rate of young adults.
+Overall Admit Rate: 32.66%
+Overall Discharge Rate: 67.34%
+Admit rate held in a narrow band across the year (~29%-35%), dipping to its lowest in August (29.69%) and returning to ~32% by year-end — no strong             seasonal admission trend. Admit rate is nearly identical between genders.
+A clear, monotonic relationship exists between age and admit rate.
+> **Conclusion:** Admission risk is overwhelmingly driven by age rather than time of year or gender — elderly patients (81+) are admitted at roughly 10x the          rate of young adults.
   	
 3. Case-Mix & Resource Intensity:
 3.1 Top Chief Complaints by Volume:
@@ -45,7 +45,7 @@ Chest Pain	1,637
 Shortness of Breath	1,320
 Back Pain	1,079
 
-Conclusion: Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
+> **Conclusion:** Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
 
 3.2 Average Medication Count per Visit:
 Overall average: 2.67 medications per visit
@@ -63,7 +63,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | Chest Pain | 4.05 |
 | Dizziness |	3.64 |
 
-> **Conclusion:**: Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
+> **Conclusion:** Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
 
 
