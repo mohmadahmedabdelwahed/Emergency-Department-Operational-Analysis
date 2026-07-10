@@ -51,13 +51,12 @@ Conclusion: Abdominal pain, chest pain, and shortness of breath — three of the
 Overall average: 2.67 medications per visit
 
 Disposition	Avg. Medications
-| Field | Description |
 |---|---|
 | Admit |	6.82 |
 | Discharge |	0.66 |
+
 By complaint (cross-filtered), the most medication-intensive presentations are:
 
-| Field | Description |
 |---|---|
 | Complaint |	Avg. Medications |
 | Shortness of Breath | 6.74 |
