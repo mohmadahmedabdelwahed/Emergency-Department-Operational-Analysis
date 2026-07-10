@@ -49,6 +49,7 @@ A clear, monotonic relationship exists between age and admit rate.
 
 > **Conclusion:** Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
 
+
 3.2 Average Medication Count per Visit:
 Overall average: 2.67 medications per visit
 
