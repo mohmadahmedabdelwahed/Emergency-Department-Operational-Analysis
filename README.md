@@ -68,7 +68,54 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 > **Conclusion:** Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
 
+3.3 Zero, Single, and Multiple Medication Visits:
+| Category | % of Visits |
+|---|---|
+| Zero medications | 65.14% |
+| Multiple medications |	27.45% |
+| One medication |	7.41% |
+> **Conclusion:** Roughly two-thirds of ED visits require no medication at all, while just over a quarter are medication-intensive (2+ medications). This bimodal split — very few visits land in the middle 'one medication' category — suggests two structurally different visit types are driving volume: quick, low-intervention visits and resource-heavy visits.
 
+4. Insurance Mix
+| Insurance Type | % of Visits |
+|---|---|
+| Medicaid | 65.14% |
+| Commercial |	27.45% |
+| Medicare |	7.41% |
+| Other | 5.14%|
+| Self Pay | 0.22% |
+> **Conclusion:** Medicaid is the dominant payer at nearly 44% of volume, with Commercial and Medicare roughly tied for second. Self-pay is negligible (0.22%). This payer mix has direct reimbursement planning implications for hospital finance, given that Medicaid reimbursement rates and terms typically differ substantially from Commercial coverage.
+
+5. Quality & Safety:
+5.1 1 Triage Accuracy Proxy: ESI vs. Disposition:
+| ESI | Admit % | Discharge % |
+|---|---|---|
+| 1 (n=101) |	91.09% |	8.91% |
+| 2 (n=5,549) |	63.72% |	36.28% |
+| 3 (n=10,942) |	37.04% |	62.96% |
+| 4 (n=6,406) |	2.06% |	97.94% |
+| 5 (n=945) |	0.63% |	99.37% |
+| Blank (n=21) |	38.10% |	61.90% |
+> **Conclusion:**Admit rate declines monotonically and sharply as ESI moves from 1 to 5 (91% down to 0.6%), confirming triage acuity is a strong, reliable predictor of actual outcome in this ED. The blank-ESI group (n=21) is too small to interpret with confidence and should be flagged as a data-completeness note rather than a finding. Missing ESI itself is rare overall (0.09% of visits), so triage documentation compliance for this specific field is strong.
+
+5.2 Missing Vitals Rate:
+| Vital Sign | % Missing |
+|---|---|
+| Heart Rate |	49% |
+| Systolic BP |	49% |
+| Diastolic BP |	49% |
+| Respiratory Rate |	49% |
+| Oxygen Saturation |	61% |
+| Temperature |	56% |
+
+> **Conclusion:** four of six vital signs show a strikingly uniform ~49% missing rate, which is more consistent with a structural documentation gap affecting a defined subset of visits than with random per-field data entry omissions. Oxygen saturation has a gap of (61%) and oxygen saturation devices has a gap of (56%), suggesting an additional, field-specific issue (e.g., device availability or workflow step) beyond whatever is driving the shared ~49% baseline. This is a genuine documentation-compliance finding warranting a targeted process review at triage.
+
+6. Admission Risk and Acuity Across Utilization Buckets:
+Admission rate rises steadily from the 0-visit through 11-20-visit buckets, consistent with escalating or unmanaged clinical need. The 21+ bucket breaks this pattern: it has the lowest admission rate of all buckets, despite carrying the most urgent (lowest) average ESI of any group.
+
+Investigation into chief complaints for this bucket found alcohol intoxication accounts for approximately 40% of presentations — far above its share in any other bucket, where abdominal pain is consistently the top complaint. This complaint is characteristically triaged as urgent (altered mental status, unstable presentation) but typically resolves through observation and discharge rather than admission.
+
+> **Conclusion:** Admit rate is not positively correlated with prior ED visit count — it rises through the 6-20 visit bucket but then falls sharply for the 21+ segment. This isn't a contradiction; it reflects the fact that a high visit count doesn't automatically mean a patient requires hospitalization. Many repeat visits present with urgent, danger-flagged symptoms (low ESI) that are nonetheless resolved through immediate treatment rather than admission — the alcohol intoxication finding is the clearest example of this. This means number of visists alone is not a reliable severity indicator.
 
 
 ## Skills Demonstrated:
