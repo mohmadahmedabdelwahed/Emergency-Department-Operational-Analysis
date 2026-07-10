@@ -37,13 +37,15 @@ A clear, monotonic relationship exists between age and admit rate.
 > **Conclusion:** Admission risk is overwhelmingly driven by age rather than time of year or gender — elderly patients (81+) are admitted at roughly 10x the          rate of young adults.
   	
 3. Case-Mix & Resource Intensity:
+
 3.1 Top Chief Complaints by Volume:
-   Complaint	Visits
-Abdominal Pain	2,444
-Other	2,183
-Chest Pain	1,637
-Shortness of Breath	1,320
-Back Pain	1,079
+| Complaint |	Visits |
+|---|---|
+| Abdominal Pain |	2,444 |
+| Other |	2,183 |
+| Chest Pain |	1,637 |
+| Shortness of Breath |	1,320 |
+| Back Pain |	1,079 |
 
 > **Conclusion:** Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
 
