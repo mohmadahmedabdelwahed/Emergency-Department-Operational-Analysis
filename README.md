@@ -63,7 +63,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | Chest Pain | 4.05 |
 | Dizziness |	3.64 |
 
-Conclusion: Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
+> **Conclusion:**: Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
 
 
