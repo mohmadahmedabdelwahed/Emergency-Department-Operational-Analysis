@@ -88,7 +88,8 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 > **Conclusion:** Medicaid is the dominant payer at nearly 44% of volume, with Commercial and Medicare roughly tied for second. Self-pay is negligible (0.22%). This payer mix has direct reimbursement planning implications for hospital finance, given that Medicaid reimbursement rates and terms typically differ substantially from Commercial coverage.
 
 5. Quality & Safety:
-5.1 1 Triage Accuracy Proxy: ESI vs. Disposition:
+
+5.1 Triage Accuracy Proxy: ESI vs. Disposition:
 | ESI | Admit % | Discharge % |
 |---|---|---|
 | 1 (n=101) |	91.09% |	8.91% |
@@ -97,9 +98,12 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | 4 (n=6,406) |	2.06% |	97.94% |
 | 5 (n=945) |	0.63% |	99.37% |
 | Blank (n=21) |	38.10% |	61.90% |
+
+
 > **Conclusion:**Admit rate declines monotonically and sharply as ESI moves from 1 to 5 (91% down to 0.6%), confirming triage acuity is a strong, reliable predictor of actual outcome in this ED. The blank-ESI group (n=21) is too small to interpret with confidence and should be flagged as a data-completeness note rather than a finding. Missing ESI itself is rare overall (0.09% of visits), so triage documentation compliance for this specific field is strong.
 
 5.2 Missing Vitals Rate:
+
 | Vital Sign | % Missing |
 |---|---|
 | Heart Rate |	49% |
