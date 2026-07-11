@@ -77,7 +77,8 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | One medication |	7.41% |
 > **Conclusion:** Roughly two-thirds of ED visits require no medication at all, while just over a quarter are medication-intensive (2+ medications). This bimodal split — very few visits land in the middle 'one medication' category — suggests two structurally different visit types are driving volume: quick, low-intervention visits and resource-heavy visits.
 
-4. Insurance Mix
+4. Insurance Mix:
+   
 | Insurance Type | % of Visits |
 |---|---|
 | Medicaid | 65.14% |
@@ -85,6 +86,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | Medicare |	7.41% |
 | Other | 5.14%|
 | Self Pay | 0.22% |
+
 > **Conclusion:** Medicaid is the dominant payer at nearly 44% of volume, with Commercial and Medicare roughly tied for second. Self-pay is negligible (0.22%). This payer mix has direct reimbursement planning implications for hospital finance, given that Medicaid reimbursement rates and terms typically differ substantially from Commercial coverage.
 
 5. Quality & Safety:
