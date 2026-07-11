@@ -38,7 +38,7 @@ A clear, monotonic relationship exists between age and admit rate.
   	
 3. Case-Mix & Resource Intensity:
 
-3.1 Top Chief Complaints by Volume:
+  3.1 Top Chief Complaints by Volume:
 | Complaint |	Visits |
 |---|---|
 | Abdominal Pain |	2,444 |
@@ -50,7 +50,7 @@ A clear, monotonic relationship exists between age and admit rate.
 > **Conclusion:** Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
 
 
-3.2 Average Medication Count per Visit:
+  3.2 Average Medication Count per Visit:
 Overall average: 2.67 medications per visit
 
 | Disposition | Avg. Medications |
@@ -69,7 +69,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 > **Conclusion:** Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
 
-3.3 Zero, Single, and Multiple Medication Visits:
+  3.3 Zero, Single, and Multiple Medication Visits:
 | Category | % of Visits |
 |---|---|
 | Zero medications | 65.14% |
@@ -116,6 +116,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 > **Conclusion:** four of six vital signs show a strikingly uniform ~49% missing rate, which is more consistent with a structural documentation gap affecting a defined subset of visits than with random per-field data entry omissions. Oxygen saturation has a gap of (61%) and oxygen saturation devices has a gap of (56%), suggesting an additional, field-specific issue (e.g., device availability or workflow step) beyond whatever is driving the shared ~49% baseline. This is a genuine documentation-compliance finding warranting a targeted process review at triage.
 
 6. Admission Risk and Acuity Across Utilization Buckets:
+   
 Admission rate rises steadily from the 0-visit through 11-20-visit buckets, consistent with escalating or unmanaged clinical need. The 21+ bucket breaks this pattern: it has the lowest admission rate of all buckets, despite carrying the most urgent (lowest) average ESI of any group.
 
 Investigation into chief complaints for this bucket found alcohol intoxication accounts for approximately 40% of presentations — far above its share in any other bucket, where abdominal pain is consistently the top complaint. This complaint is characteristically triaged as urgent (altered mental status, unstable presentation) but typically resolves through observation and discharge rather than admission.
