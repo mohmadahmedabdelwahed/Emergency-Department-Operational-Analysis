@@ -18,6 +18,7 @@ Five related CSV extracts for a single ED, linked by `PatientID`:
 ## Data Model:
 Built in Power Pivot after shaping all source tables in Power Query.
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/1.%20Data%20model.png)
 
 
 - **Visits** (fact table) — `admit` + `discharge` appended into one 23,964-row table, related **1-to-1** with `triage_vitals`
@@ -27,6 +28,14 @@ Built in Power Pivot after shaping all source tables in Power Query.
 ## Analysis & Key Findings:
 1. Throughput & Capacity:
 Monday is the highest-volume day (3,813 visits) followed by Tuesday (3,543), with only minor variation across the remaining weekdays. June, March, May, and     April are the highest-volume months (~2,400-2,470 visits each), with a clear drop-off across the winter months (November, February at ~1,600-1,630).
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/2.%20No%20of%20patients%20by%20arrival%20hour.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/3.%20No%20of%20patients%20by%20day%20of%20week.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/4.%20No%20of%20patinets%20by%20month.png)
+
+
 > **Conclusion:** Demand is concentrated in the midday-to-evening window (11am-7pm), which together account for roughly half of all visits, and in the Monday-        Tuesday early week. Staffing schedules should be weighted toward these windows rather than spread evenly across all shifts; overnight (11pm-7am) volume is      roughly one-third of peak and may be a candidate for reduced staffing levels.
 
 2.	Admit Rate — Overall and by Segment:
