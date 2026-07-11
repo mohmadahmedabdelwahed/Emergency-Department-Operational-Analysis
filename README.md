@@ -64,6 +64,8 @@ A clear, monotonic relationship exists between age and admit rate.
 | Shortness of Breath |	1,320 |
 | Back Pain |	1,079 |
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/8.%20Top%205%20complaints.png)
+
 > **Conclusion:** Abdominal pain, chest pain, and shortness of breath — three of the top five complaints — all require broad diagnostic workup capability (labs, imaging). Staff training, equipment stocking, and any fast-track design should be built around this specific complaint mix rather than a generic assumption of ED case mix.
 
 
@@ -75,6 +77,10 @@ Overall average: 2.67 medications per visit
 | Admit |	6.82 |
 | Discharge |	0.66 |
 
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/9.%20avg%20medications%20per%20visit.png)
+
+
 By complaint (cross-filtered), the most medication-intensive presentations are:
 
 | Complaint |	Avg. Medications |
@@ -82,6 +88,10 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | Shortness of Breath | 6.74 |
 | Chest Pain | 4.05 |
 | Dizziness |	3.64 |
+
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/10.%20abg%20medications%20by%20complaint.png)
+
 
 > **Conclusion:** Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
@@ -94,6 +104,8 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | Medicare |	7.41% |
 | Other | 5.14%|
 | Self Pay | 0.22% |
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/11.%20visists%20%25%20by%20insurance.png)
 
 > **Conclusion:** Medicaid is the dominant payer at nearly 44% of volume, with Commercial and Medicare roughly tied for second. Self-pay is negligible (0.22%). This payer mix has direct reimbursement planning implications for hospital finance, given that Medicaid reimbursement rates and terms typically differ substantially from Commercial coverage.
 
@@ -109,6 +121,7 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 | 5 (n=945) |	0.63% |	99.37% |
 | Blank (n=21) |	38.10% |	61.90% |
 
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/12.%20admitt%20%26%20discharge%20%25%20by%20esi.png)
 
 > **Conclusion:**Admit rate declines monotonically and sharply as ESI moves from 1 to 5 (91% down to 0.6%), confirming triage acuity is a strong, reliable predictor of actual outcome in this ED. The blank-ESI group (n=21) is too small to interpret with confidence and should be flagged as a data-completeness note rather than a finding. Missing ESI itself is rare overall (0.09% of visits), so triage documentation compliance for this specific field is strong.
 
@@ -130,6 +143,11 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 Admission rate rises steadily from the 0-visit through 11-20-visit buckets, consistent with escalating or unmanaged clinical need. The 21+ bucket breaks this pattern: it has the lowest admission rate of all buckets, despite carrying the most urgent (lowest) average ESI of any group.
 
 Investigation into chief complaints for this bucket found alcohol intoxication accounts for approximately 40% of presentations — far above its share in any other bucket, where abdominal pain is consistently the top complaint. This complaint is characteristically triaged as urgent (altered mental status, unstable presentation) but typically resolves through observation and discharge rather than admission.
+
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/14.%20admit%20%25%20by%20number%20of%20visits%20group.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/15.%20complaints%20of%20%2B21.png)
 
 > **Conclusion:** Admit rate is not positively correlated with prior ED visit count — it rises through the 6-20 visit bucket but then falls sharply for the 21+ segment. This isn't a contradiction; it reflects the fact that a high visit count doesn't automatically mean a patient requires hospitalization. Many repeat visits present with urgent, danger-flagged symptoms (low ESI) that are nonetheless resolved through immediate treatment rather than admission — the alcohol intoxication finding is the clearest example of this. This means number of visists alone is not a reliable severity indicator.
 
