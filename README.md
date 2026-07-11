@@ -41,9 +41,17 @@ Monday is the highest-volume day (3,813 visits) followed by Tuesday (3,543), wit
 2.	Admit Rate — Overall and by Segment:
 Overall Admit Rate: 32.66%
 Overall Discharge Rate: 67.34%
-Admit rate held in a narrow band across the year (~29%-35%), dipping to its lowest in August (29.69%) and returning to ~32% by year-end — no strong             seasonal admission trend. Admit rate is nearly identical between genders.
+Admit rate held in a narrow band across the year (~29%-35%), dipping to its lowest in August (29.69%) and returning to ~32% by year-end — no strong seasonal admission trend. Admit rate is nearly identical between genders.
 A clear, monotonic relationship exists between age and admit rate.
-> **Conclusion:** Admission risk is overwhelmingly driven by age rather than time of year or gender — elderly patients (81+) are admitted at roughly 10x the          rate of young adults.
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/5%2C%20Admit%20%26%20discharge%20%25%20from%20total.png)
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/6.%20Arrival%20rate%20by%20month.png)
+
+
+![Image Alt](https://github.com/mohmadahmedabdelwahed/Emergency-Department-Operational-Analysis/blob/main/Pictures/7.%20Arrival%25%20by%20age%20group.png)
+
+> **Conclusion:** Admission risk is overwhelmingly driven by age rather than time of year or gender — elderly patients (81+) are admitted at roughly 10x the rate of young adults.
   	
 3. Case-Mix & Resource Intensity:
 
