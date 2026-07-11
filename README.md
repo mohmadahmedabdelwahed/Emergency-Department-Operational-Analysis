@@ -139,4 +139,9 @@ Investigation into chief complaints for this bucket found alcohol intoxication a
 - `CALCULATE`, `DIVIDE`, `COUNTROWS`, `CROSSFILTER` measures
 - Building rate/ratio measures with correct numerator-denominator grain matching
 
+**Analysis**
+- Business-KPI framing — every metric tied to a staffing, financial, or quality decision, not just a statistical observation
+- Confounding-aware analysis (e.g., insurance status vs. disposition, controlling for age)
+- Root-cause investigation of an anomalous pattern (see Key Finding below) using cross-tabulation across complaint type and vital signs to test competing hypotheses before drawing a conclusion
+
 
