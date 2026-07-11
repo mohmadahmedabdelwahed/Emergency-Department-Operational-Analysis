@@ -68,15 +68,6 @@ By complaint (cross-filtered), the most medication-intensive presentations are:
 
 > **Conclusion:** Admitted patients receive roughly 10x the medication volume of discharged patients, confirming disposition is a strong proxy for clinical resource intensity. Respiratory and cardiac complaints (shortness of breath, chest pain) are the most pharmacy-intensive presentation types and should be prioritized in medication stocking and nursing workload planning.
 
-
-  3.3 Zero, Single, and Multiple Medication Visits:
-| Category | % of Visits |
-|---|---|
-| Zero medications | 65.14% |
-| Multiple medications |	27.45% |
-| One medication |	7.41% |
-> **Conclusion:** Roughly two-thirds of ED visits require no medication at all, while just over a quarter are medication-intensive (2+ medications). This bimodal split — very few visits land in the middle 'one medication' category — suggests two structurally different visit types are driving volume: quick, low-intervention visits and resource-heavy visits.
-
 4. Insurance Mix:
    
 | Insurance Type | % of Visits |
